@@ -77,7 +77,7 @@ export function AnimationsCSS() {
   
   function activatePower() {
     // Début TODO
-    const powerElement = document.getElementById(`${selectedCard}_${selectedPower}`);
+    const powerElement = document.getElementById(`${selectedCardId}_${selectedPowerId}`);
 
     if (!powerElement) {
       return;
