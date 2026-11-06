@@ -239,7 +239,7 @@ export function AnimationsCSS() {
                   <PlayingCard
                     id="simple_c42"
                     powerIds={powerCards[0].powerIds}
-                    className="flip-scale-2-ver-right"
+                    className="flip-scale-up-ver"
                   />
                 )}
               </div>
@@ -288,7 +288,7 @@ export function AnimationsCSS() {
                           key={card.id}
                           id={`draw_${card.id}`}
                           powerIds={card.powerIds}
-                          className="flip-scale-2-ver-right"
+                          className="flip-scale-up-ver"
                         />
                       );
                     }
